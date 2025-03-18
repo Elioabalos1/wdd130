@@ -3,9 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-:root {
 
-}
+:root {}
+
 nav {
     background-color: lightgreen;
     padding: 10px;
@@ -44,9 +44,10 @@ aside {
     color: #333;
     text-align: center;
 }
-aside h2{
+
+aside h2 {
     position: absolute;
-    bottom: 60px; 
+    bottom: 60px;
     left: 140px;
 }
 
@@ -59,6 +60,7 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
+
 /* Class Selectors */
 .box {
     margin: 1rem;
@@ -66,5 +68,5 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
-    
+
 }
