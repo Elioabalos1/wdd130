@@ -1,21 +1,16 @@
-:root{
+:root {
     --color-primary: #048A81;
     --color-secundary: #54C6EB;
     --accent1-color: #06D6A0;
     --acent2-color: #8A89C0;
 }
+
 head {
     
 }
 
-.hero{
+.hero {}
 
-}
+#hero {}
 
-#hero{
-
-}
-
-div{
-
-}
+div {}
