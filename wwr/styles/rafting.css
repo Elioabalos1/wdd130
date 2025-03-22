@@ -30,7 +30,7 @@ head {}
     width: 100%;
     height: 400px;
     text-align: center;
-    background-image: url('/rafting19_600.jpg');
+    background-image: url('https://byui-cse.github.io/wdd130-ww-course/resources/images/rafting19_600.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -67,7 +67,7 @@ head {}
 .hero_article_div {
     width: 20%;
     height: 15vh;
-    background-image: url('/hero_article.jpeg');
+    background-image: url('https://www.lavanguardia.com/files/image_480_496/uploads/2015/02/22/5fa275b48479a.jpeg');
     background-size: contain;
     background-repeat: no-repeat;
 }
