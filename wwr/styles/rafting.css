@@ -5,6 +5,13 @@
     --acent2-color: #8A89C0;
 }
 
+a {
+    outline: none;
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+
 .toptitle {}
 
 .fir img {
@@ -77,6 +84,7 @@ head {}
 
 .image_water {
     width: 500px;
+    max-width: 500px;
     height: 338px;
     display: flex;
 }
