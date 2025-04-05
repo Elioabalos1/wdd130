@@ -253,3 +253,231 @@ footer p {
     max-height: 25px;
     width: auto;
 }
+
+/* Contact Us */
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+}
+
+.firstpart {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.firstpart article {
+    grid-column: 1;
+    text-align: center;
+    padding-right: 20px;
+}
+
+
+.firstpart h1 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.firstpart p {
+    color: var(--accent-color2);
+    font-family: var(--text-font);
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.firstpart .map {
+    grid-column: 2;
+    width: 100%;
+}
+
+.map iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    background-color: #b1cf89;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.team h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 40px;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+    font-size: 2rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 900px;
+}
+
+.gallery figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.gallery figure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid var(--primary-color);
+}
+
+.gallery figcaption {
+    text-align: center;
+    font-family: var(--text-font);
+    color: var(--accent-color2);
+    font-size: 1.2rem;
+}
+
+.lastpart h3 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+
+.lastpart label {
+    color: #333;
+}
+
+.lastpart fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.lastpart legend {
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: var(--accent-color1);
+    border-radius: 5px;
+}
+
+.lastpart input[type="text"],
+.lastpart input[type="email"],
+.lastpart textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: var(--text-font);
+    color: var(--accent-color2);
+    background-color: #fff;
+}
+
+.lastpart input[type="text"]:focus,
+.lastpart input[type="email"]:focus,
+.lastpart textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px rgba(var(--primary-color-rgb), 0.2);
+}
+
+.lastpart input[type="radio"],
+.lastpart input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.lastpart label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+}
+
+.lastpart button[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: var(--heading-font);
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.lastpart button[type="submit"]:hover {
+    background-color: var(--secondary-color);
+}
+
+.lastpart fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.lastpart legend {
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 5px 10px;
+    background-color: var(--accent-color1);
+    border-radius: 5px;
+}
+
+.name-inputs {
+    display: flex;
+    gap: 10px;/
+}
+
+.name-inputs input[type="text"] {
+    width: calc(50% - 5px);
+}
+
+
+.lastpart div[class*="purpose"] {
+    margin-bottom: 10px;
+}
+
+.lastpart div[class*="purpose"] label {
+    display: inline;
+    margin-bottom: 0;
+}
+
+#website {
+    margin-bottom: 20px;
+}

@@ -15,6 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -28,18 +29,97 @@
         </nav>
     </header>
     <main>
-        <h1>Contact Us</h1>
+        <section class="firstpart">
+            <article>
+                <h1>Contact Us</h1>
 
-        <h2>Send Us a Message</h2>
-    <p>WILD RAFTING</p>
-    <p>342-999-999</p>
-    <p>Email: wildrafting@gmail.com</p>
-    <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28622.64275061135!2d-71.15884139769548!3d-41.056209957079645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1743810201653!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p>Address: RN40 2057, Neuquén</p>
+                <p>342-999-999</p>
+                <p>Email: wildrafting@gmail.com</p>
+                <div class="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28622.64275061135!2d-71.15884139769548!3d-41.056209957079645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1743810201653!5m2!1ses!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+        </div>
+        <section class="team">
+            <h2>Our team</h2>
+            <div class="gallery">
+                <figure>
+                    <img src="../oficina feliz.jpg" alt="office">
+                    <figcaption>Eric</figcaption>
+                </figure>
+                <figure>
+                    <img src="../rubia empleada.jpg" alt="rub">
+                    <figcaption>Sara</figcaption>
+                </figure>
+                <figure>
+                    <img src="../negra empleada.jpg" alt="neg">
+                    <figcaption>Johanna</figcaption>
+                </figure>
 
-    </div>
+            </div>
+        </section>
+        <section class="lastpart">
+            <h3>Send Us a Message!</h3>
+            <form>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="firstname" required="">
+                    <br>
+                    <br>
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="lastname" required="">
+                    <br>
+                    <br>
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required="">
+                    <br>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Message Details</legend>
+                    <p>Purpose of Message:</p>
+                    <div>
+                        <input type="radio" name="purpose" value="General Inquiry" id="general" required="">
+                        <label for="general">General Inquiry</label>
+                        <br>
+                        <input type="radio" name="purpose" value="Reservation Question" id="reservation">
+                        <label for="reservation">Reservation Question</label>
+                        <br>
+                        <input type="radio" name="purpose" value="Website Suggestion" id="website">
+                        <label for="website">Website Suggestion</label>
+                    </div>
+                    <label for="message">Message:</label>
+                    <br>
+                    <textarea id="message" name="message" rows="4" cols="50" required=""></textarea>
+                    <br>
+                    <br>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </fieldset>
+                <button type="submit">Submit Your Message</button>
+            </form>
+        </section>
 
     </main>
+    <footer>
+        <p>©2013 Wild Rafting by Elio Abalos</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="../BW_Facebook_glyph_svg-64.webp" alt="Facebook">
+            </a>
+            <a href="https://x.com">
+                <img src="../X-64.webp" alt="X">
+            </a>
+            <a href="https://instagram.com">
+                <img src="../Circled_Instagram_svg-64.webp" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
 </body>
 
 </html>
